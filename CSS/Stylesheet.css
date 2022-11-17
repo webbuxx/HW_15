@@ -1,0 +1,68 @@
+body{
+  background-color: lightgrey;
+  padding: 5px 15px 15px 15px;
+}
+p{
+  width: 60%;
+}
+ul a{
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+}
+
+header{
+  text-align: center;
+  background-color: darkgray;
+}
+footer {
+  position:fixed;
+  bottom:0;
+  text-align: center;
+  background-color: darkgray;
+  width: 96%;
+  }
+
+table{
+     background-color: aquamarine;
+    width: 80%;
+  }
+  td, th{
+    padding: 5px 5px;
+    background-color: aquamarine;
+    text-align: center;
+  }
+
+  form{
+    background-color: aquamarine;   
+  }
+
+input[type="text"],
+input[type="email"],
+textarea{
+  display: block;
+  margin: 20px 10px;
+  width: 600px;
+  box-sizing:border-box;
+}
+
+.button{
+  height: 22px;
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+  color: Darkblue;
+  border-left: 2px solid blue;
+  border-right: 1px solid blue;
+  background-color: lightblue;
+  border-style: double;
+  border-width: thin;
+  border-color: darkblue;
+  border-radius: 18px;
+}
+.button:hover{
+  background-color: brown;
+  border-style: none;
+  color: white;
+}
